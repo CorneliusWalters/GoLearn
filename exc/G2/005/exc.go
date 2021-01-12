@@ -7,6 +7,6 @@ func main() {
 	vsraw := `hello this is a String lit
 	
 	with new lines`
-	fmt.Println( vsraw )
+	fmt.Println(vsraw)
 
 }

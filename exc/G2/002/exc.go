@@ -11,6 +11,6 @@ func main() {
 	lst := (lnum < 70)
 	lgt := (lnum > 70)
 
-	fmt.Println( ltrue, lge, lse, lne, lst, lgt)
+	fmt.Println(ltrue, lge, lse, lne, lst, lgt)
 
 }
