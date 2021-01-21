@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	switch {
+	switch  {
 	case false:
 		fmt.Println("false")
 	case true:

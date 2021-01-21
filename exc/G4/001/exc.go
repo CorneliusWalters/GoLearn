@@ -3,14 +3,14 @@ package main
 import "fmt"
 
 func main() {
-	a_int := [5]int{999, 100, 200, 300, 400}
+	a0int := [5]int{999, 100, 200, 300, 400}
 
-	v_cap := cap(a_int)
+	v0cap := cap(a0int)
 
-	for ind := 0; ind < v_cap; ind++ {
-		fmt.Println(a_int[ind])
+	for ind := 0; ind < v0cap; ind++ {
+		fmt.Println(a0int[ind])
 
 	}
-	fmt.Printf("%T\t capacity of array %v", a_int, v_cap)
+	fmt.Printf("%T\t capacity of array: %v", a0int, v0cap)
 
 }
