@@ -9,7 +9,7 @@ func main() {
 	fmt.Println(len(s0str))
 
 	for i0ind := 0; i0ind < len(s0str); i0ind++ {
-	//	fmt.Println(i0ind, s0str[(i0ind)])
+		fmt.Println(i0ind, s0str[(i0ind)])
 	}
 
 }
