@@ -11,11 +11,6 @@ func main() {
 	}
 	m0str["I_Vreij"] = []string{"freeloader", "Lost in the abys", "Owes me money", "eX Friend"}
 
-	delete( m0str, "Z_Kader")
-	ok0m, ok := m0str["Z_Kader"]
-
-	fmt.Println(ok, ok0m)
-
 	// on map index replaced with key,
 	for key0, vm0 := range m0str {
 		fmt.Println(key0, "Details:")
